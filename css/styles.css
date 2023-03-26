@@ -2,40 +2,35 @@
     font-family: 'Lilita One', cursive;
     margin: 0;
     padding: 0;
-    background: rgb(221, 221, 221);
-    
 }
 
 body {
     transition: all .4s ease 0s;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
+    background: rgb(232, 232, 232);
 }
 
-.signature-image {
-    margin: 0;
-    padding: 0;
-}
 
 #jonathan-signature {
+    margin: 0;
+    padding: 0;
     padding-left: 100px;
     height: 350px;
 }
 
 h1, li, a {
     font-size: 30;
-    background-image: linear-gradient(90deg,#3092d3,#2f6ec2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #2F6EC2;
     text-decoration: none;
-    filter: drop-shadow(1px 1px 1px #1d1d1d);
+    text-shadow: 1px 1px 3px black;
 }
 
 .upper-bar {
+    background: rgb(237, 237, 237);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
-    margin-right: 100px;
+    padding: 0px;
 }
 
 .tabs li {
@@ -44,11 +39,13 @@ h1, li, a {
 }
 
 .tabs li a {
-    transition: all .4s ease 0s;
+    transition: all .3s ease 0s;
 }
+
 .tabs li a:hover {
-    opacity: 75%;
+    opacity: 85%;
 }
+
 .user-info {
     display: flex;
     justify-content: space-between;
@@ -58,16 +55,38 @@ h1, li, a {
     padding-right: 500px;
 }
 
+.download-resume {
+    border: none;
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    margin-top: 40px;
+    font-size: 30;
+    background: #2F6EC2;
+    color: rgb(234, 234, 234);
+    box-shadow: 1px 1px 5px black;
+    transition: all .3s ease 0s;
+}
+
+.download-resume:hover {
+    cursor: pointer;
+    opacity: 90%;
+}
+
 #jonathan-name {
+    line-height: 1.6;
     font-weight: 200;
     font-size: 80;
 }
 
 #jonathan-bio {
+    line-height: 1.6;
     font-weight: 200;
     font-size: 30;
 }
 
-#jonathan-shot {
+.jonathan-shot {
     height: 800px;
+    padding-left: 300px;
+    filter: drop-shadow(2px 2px 4px #1d1d1d);
 }
