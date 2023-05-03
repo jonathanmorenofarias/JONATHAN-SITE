@@ -1,15 +1,15 @@
 document.getElementById("home-button").onclick = function () {
-    window.location.href = "http://www.youtube.com"
+    window.location.href = "main.html"
 }
 
 document.getElementById("about-button").onclick = function () {
-    window.location.href = "https://www.youtube.com/shorts/v8gl6hEarPQ"
+    window.location.href = "about.html"
 }
 
 document.getElementById("project-button").onclick = function () {
-    window.location.href = "http://www.youtube.com"
+    window.location.href = "project.html"
 }
 
 document.getElementById("contact-button").onclick = function () {
-    window.location.href = "http://www.youtube.com"
+    window.location.href = "contact.html"
 }
